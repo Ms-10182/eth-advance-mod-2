@@ -29,7 +29,7 @@ from vs code run the index.html using live server.
 4) To perform hacker attack simulation, click simulate hacker attack. without this user can;t claim the credit.
 5) Now click claim wallet insurance to get the insurance credit.<br><br>
 <b>For Loan Collateral Insurance</b><br>
-    Choose the insurance type and see the policy then enter loan amount and click Create Loan Collateral Insurance.
+1)Choose the insurance type and see the policy then enter loan amount and click Create Loan Collateral Insurance.
 2) Under Interact with Loan Collateral Insurance pay the premimum.
 3) you can check current premium balance and user credit balance.
 4) To perform hacker attack simulation, click simulate hacker attack. without this user can;t claim the credit.

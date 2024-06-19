@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance DApp</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <h1>Insurance DApp</h1>
+    
+    <div>
+        <h2>Create Wallet Insurance</h2>
+        <select id="walletType" onchange="showWalletPolicyDetails()">
+            <option value="0">Wallet Insurance Type 1</option>
+            <option value="1">Wallet Insurance Type 2</option>
+        </select>
+        <button onclick="createWalletInsurance()">Create Wallet Insurance</button>
+        <p id="walletInsuranceOutput"></p>
+        <div id="walletPolicyDetails"></div>
+    </div>
+    
+    <div>
+        <h2>Create Loan Collateral Insurance</h2>
+        <select id="loanType" onchange="showLoanPolicyDetails()">
+            <option value="0">Loan Collateral Insurance Type 1</option>
+            <option value="1">Loan Collateral Insurance Type 2</option>
+        </select>
+        <input type="number" id="loanAmount" placeholder="Loan Amount">
+        <button onclick="createLoanCollateralInsurance()">Create Loan Collateral Insurance</button>
+        <p id="loanInsuranceOutput"></p>
+        <div id="loanPolicyDetails"></div>
+    </div>
+
+    <div>
+        <h2>Interact with Wallet Insurance</h2>
+        <select id="walletInsuranceSelect"></select>
+        <input type="number" id="walletPremiumAmount" placeholder="Premium Amount">
+        <button onclick="payWalletPremium()">Pay Wallet Premium</button>
+        <button onclick="claimWalletInsurance()">Claim Wallet Insurance</button>
+        <button onclick="attackWalletInsurance()">Simulate Hacker Attack</button>
+        <button onclick="getWalletCurrentPremiumBalance()">Get Current Premium Balance</button>
+        <button onclick="getWalletUserCreditBalance()">Get User Credit Balance</button>
+        <p id="walletCurrentPremiumBalance"></p>
+        <p id="walletUserCreditBalance"></p>
+    </div>
+
+    <div>
+        <h2>Interact with Loan Collateral Insurance</h2>
+        <select id="loanInsuranceSelect"></select>
+        <input type="number" id="loanPremiumAmount" placeholder="Premium Amount">
+        <input type="number" id="collateralValue" placeholder="Collateral Value">
+        <button onclick="payLoanPremium()">Pay Loan Premium</button>
+        <button onclick="claimLoanInsurance()">Claim Loan Insurance</button>
+        <button onclick="attackLoanInsurance()">Simulate Hacker Attack</button>
+        <button onclick="getLoanCurrentPremiumBalance()">Get Current Premium Balance</button>
+        <button onclick="getLoanUserCreditBalance()">Get User Credit Balance</button>
+        <p id="loanCurrentPremiumBalance"></p>
+        <p id="loanUserCreditBalance"></p>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

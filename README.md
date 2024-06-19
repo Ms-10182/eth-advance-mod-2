@@ -26,13 +26,13 @@ from vs code run the index.html using live server.
 i) Choose the insurance type and see the policy then click Create Wallet Insurance.<br>
 ii) Under Interact with Wallet Insurance pay the premimum.<br>
 iii) you can check current premium balance and user credit balance.<br>
-iv) To perform hacker attack simulation, click simulate hacker attack. without this user can;t claim the credit.<br>
+iv) To perform hacker attack simulation, click simulate hacker attack. without this user can't claim the credit.<br>
 v) Now click claim wallet insurance to get the insurance credit.<br><br>
 <b>For Loan Collateral Insurance</b><br>
 i) Choose the insurance type and see the policy then enter loan amount and click Create Loan Collateral Insurance.<br>
 ii) Under Interact with Loan Collateral Insurance pay the premimum.<br>
 iii) you can check current premium balance and user credit balance.<br>
-iv) To perform hacker attack simulation, click simulate hacker attack. without this user can;t claim the credit.<br>
+iv) To perform hacker attack simulation, click simulate hacker attack. without this user can't claim the credit.<br>
 v) Now enter the amount which is left after the attack , if it is greater then the threshold value then user can't claim, if lower then the threshold click claim wallet insurance to get the insurance credit.<br>
 
 

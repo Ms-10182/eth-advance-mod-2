@@ -5,7 +5,7 @@ i) Crypto wallet insurance<br>
 ii) Collateral protection for crypto backed loans:
 
 ## Description
-```WalletInsurance.sol``` insurance protocol that helps owners of smart contract wallets stay protected from hackers. The owners will be paying an insurance amount per month, set by the protoco, ```LoanCollateralInsurance.sol``` file is based on the insurance policy the user has chosen, contract will give back % of the loan when the collateral value dropscontract and both the contract will be deployed on runtime using ```InsuranceFactory.sol```.
+```WalletInsurance.sol``` insurance protocol that helps owners of smart contract wallets stay protected from hackers. The owners will be paying an insurance amount per month, set by the protocol, ```LoanCollateralInsurance.sol``` file is based on the insurance policy the user has chosen, contract will give back % of the loan when the collateral value dropscontract and both the contract will be deployed on runtime using ```InsuranceFactory.sol```.
 In this project new insurace contract will be created for the user corresponding to the choosed policy. and user can perfrom the transaction and operations with this. we have few functions to test the contract.```create wallet insurance``` to create a new wallet insurance from the contract. ```Create Loan Collateral Insurance``` to create the new insurance contract for loan collateral insurance. 
 Then user pay the premium in exact value defined in policy neither more neigher less. Premium payment method is same for both, and in case of hacker attack, user will be eligible for claim premium
 

@@ -22,7 +22,7 @@ copy the LoanCollateralInsurance abi and paste in value of ```loanCollateralInsu
 from vs code run the index.html using live server.
 
 ### Interaction
-<b>For Wallet Insurance</b>
+<b>For Wallet Insurance</b><br>
 i) Choose the insurance type and see the policy then click Create Wallet Insurance.<br>
 ii) Under Interact with Wallet Insurance pay the premimum.<br>
 iii) you can check current premium balance and user credit balance.<br>

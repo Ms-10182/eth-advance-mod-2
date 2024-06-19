@@ -1,5 +1,5 @@
 # Insurance policy smart contract
- This fullstack code is made with the help of Solidity and designed a create an insurance provider protocol for users  toprovide liquidity to cover damage in the case of an insured event, and they themselves receive interest for providing liquidity.<br>
+ This fullstack code is made with the help of Solidity and designed a create an insurance provider protocol for users  to provide liquidity to cover damage in the case of an insured event, and they themselves receive interest for providing liquidity.<br>
 2 main components of the insurance:<br>
 i) Crypto wallet insurance<br>
 ii) Collateral protection for crypto backed loans:

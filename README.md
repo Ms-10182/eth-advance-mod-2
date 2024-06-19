@@ -15,7 +15,7 @@ git clone https://github.com/Ms-10182/eth-advance-mod-2.git
 cd eth-advance-mod-2
 ```
 
-1) open Remix ide and create ```Insurance contracts```
+1) open Remix ide and create ```Insurance contracts``` folder
 2) upload ```WalletInsurance.sol, LoanCollateralInsurance.sol, InsuranceFactory.sol``` into it and deploy the InsuranceFactory.sol on sepolia test net.
 3) copy the InsuranceFactory abi and paste in value of ```factoryABI``` in app.js, copy abi of WalletInsurance.sol paste in value of ```walletInsuranceABI``` in app.js,
 copy the LoanCollateralInsurance abi and paste in value of ```loanCollateralInsuranceABI``` in app.js  and copy the contract address fo InsuranceFactory.sol in value of ```factoryAddress```.
